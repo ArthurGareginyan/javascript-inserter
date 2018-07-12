@@ -19,6 +19,9 @@ jQuery(document).ready(function($) {
         }, 3000);
     }
 
+    // Add dynamic content to page tabs. Needed for having an up to date content.
+    $('.include-tab-store').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-store');
+
     // Add questions and answers into spoilers and color them in different colors
     $('.panel-group .panel').each(function(i) {
          $('.question-' + (i+1) ).appendTo( $('h4', this) );

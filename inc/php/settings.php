@@ -14,11 +14,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="meta-box-sortabless">
 
                 <form action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( SPACEXCHIMP_P015_SETTINGS . '_settings_group' ); ?>
+                    <?php settings_fields( SPACEXCHIMP_P016_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the database
-                        $options = get_option( SPACEXCHIMP_P015_SETTINGS . '_settings' );
+                        $options = get_option( SPACEXCHIMP_P016_SETTINGS . '_settings' );
 
                         // Set default value if option is empty
                         $header_beginning = !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';
@@ -34,15 +34,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed in the beginning of HEAD section.', $text ); ?></p>
                             <textarea
-                                name="spacexchimp_p015_settings[header_beginning]"
-                                id="spacexchimp_p015_settings[header_beginning]"
+                                name="spacexchimp_p016_settings[header_beginning]"
+                                id="spacexchimp_p016_settings[header_beginning]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $header_beginning; ?></textarea>
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed in the end of HEAD section.', $text ); ?></p>
                             <textarea
-                                name="spacexchimp_p015_settings[header_end]"
-                                id="spacexchimp_p015_settings[header_end]"
+                                name="spacexchimp_p016_settings[header_end]"
+                                id="spacexchimp_p016_settings[header_end]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $header_end; ?></textarea>
 
@@ -57,19 +57,33 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed before the footer scripts.', $text ); ?></p>
                             <textarea
-                                name="spacexchimp_p015_settings[footer_beginning]"
-                                id="spacexchimp_p015_settings[footer_beginning]"
+                                name="spacexchimp_p016_settings[footer_beginning]"
+                                id="spacexchimp_p016_settings[footer_beginning]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $footer_beginning; ?></textarea>
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed after all footers scripts.', $text ); ?></p>
                             <textarea
-                                name="spacexchimp_p015_settings[footer_end]"
-                                id="spacexchimp_p015_settings[footer_end]"
+                                name="spacexchimp_p016_settings[footer_end]"
+                                id="spacexchimp_p016_settings[footer_end]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $footer_end; ?></textarea>
 
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">
+                        </div>
+                    </div>
+
+                    <div class="postbox" id="support-addition">
+                        <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
+                        <div class="inside">
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
+                                                        <span class="btn-label">
+                                                            <img src="<?php echo SPACEXCHIMP_P016_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                                        </span>
+                                                        <?php _e( 'Donate with PayPal', $text ); ?>
+                                                </a>
+                            <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>
 

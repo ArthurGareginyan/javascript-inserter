@@ -8,12 +8,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Callback to enqueue the CodeMirror library
  */
-function spacexchimp_p015_load_scripts_codemirror() {
+function spacexchimp_p016_load_scripts_codemirror() {
 
     // Put value of constants to variables for easier access
-    $prefix = SPACEXCHIMP_P015_PREFIX;
-    $url = SPACEXCHIMP_P015_URL;
-    $version = SPACEXCHIMP_P015_VERSION;
+    $prefix = SPACEXCHIMP_P016_PREFIX;
+    $url = SPACEXCHIMP_P016_URL;
+    $version = SPACEXCHIMP_P016_VERSION;
 
     // Enqueue main files of the CodeMirror library
     wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/lib/codemirror.css', array(), $version, 'all' );
@@ -21,12 +21,6 @@ function spacexchimp_p015_load_scripts_codemirror() {
 
     // Enqueue settings file
     wp_enqueue_script( $prefix . '-codemirror-settings-js', $url . 'inc/js/codemirror-settings.js', array(), $version, true );
-
-    // Enqueue modes
-    $modes = array( 'javascript' );
-    foreach ( $modes as $mode ) {
-        wp_enqueue_script( $prefix . '-codemirror-mode-' . $mode . '-js', $url . 'inc/lib/codemirror/mode/' . $mode . '/' . $mode . '.js', array(), $version, true );
-    }
 
     // Enqueue addons
     $addons = array(
@@ -39,18 +33,26 @@ function spacexchimp_p015_load_scripts_codemirror() {
         }
     }
 
+    // Enqueue modes
+    $modes = array(
+                    'javascript'
+                  );
+    foreach ( $modes as $mode ) {
+        wp_enqueue_script( $prefix . '-codemirror-mode-' . $mode . '-js', $url . 'inc/lib/codemirror/mode/' . $mode . '/' . $mode . '.js', array(), $version, true );
+    }
+
 }
 
 /**
  * Load scripts and style sheet for settings page
  */
-function spacexchimp_p015_load_scripts_admin( $hook ) {
+function spacexchimp_p016_load_scripts_admin( $hook ) {
 
     // Put value of constants to variables for easier access
-    $slug = SPACEXCHIMP_P015_SLUG;
-    $prefix = SPACEXCHIMP_P015_PREFIX;
-    $url = SPACEXCHIMP_P015_URL;
-    $version = SPACEXCHIMP_P015_VERSION;
+    $slug = SPACEXCHIMP_P016_SLUG;
+    $prefix = SPACEXCHIMP_P016_PREFIX;
+    $url = SPACEXCHIMP_P016_URL;
+    $version = SPACEXCHIMP_P016_VERSION;
 
     // Return if the page is not a settings page of this plugin
     $settings_page = 'settings_page_' . $slug;
@@ -68,7 +70,7 @@ function spacexchimp_p015_load_scripts_admin( $hook ) {
     wp_enqueue_style( $prefix . '-font-awesome-css', $url . 'inc/lib/font-awesome/css/font-awesome.css', array(), $version, 'screen' );
 
     // Call the function that enqueue the CodeMirror library
-    spacexchimp_p015_load_scripts_codemirror();
+    spacexchimp_p016_load_scripts_codemirror();
 
     // Style sheet
     wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css', array(), $version, 'all' );
@@ -77,4 +79,4 @@ function spacexchimp_p015_load_scripts_admin( $hook ) {
     wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), $version, true );
 
 }
-add_action( 'admin_enqueue_scripts', 'spacexchimp_p015_load_scripts_admin' );
+add_action( 'admin_enqueue_scripts', 'spacexchimp_p016_load_scripts_admin' );

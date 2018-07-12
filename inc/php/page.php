@@ -8,17 +8,18 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  */
-function spacexchimp_p015_render_submenu_page() {
+function spacexchimp_p016_render_submenu_page() {
 
     // Put value of constants to variables for easier access
-    $name = SPACEXCHIMP_P015_NAME;
-    $slug = SPACEXCHIMP_P015_SLUG;
-    $version = SPACEXCHIMP_P015_VERSION;
-    $text = SPACEXCHIMP_P015_TEXT;
+    $name = SPACEXCHIMP_P016_NAME;
+    $slug = SPACEXCHIMP_P016_SLUG;
+    $version = SPACEXCHIMP_P016_VERSION;
+    $text = SPACEXCHIMP_P016_TEXT;
 
     // Call messages
-    spacexchimp_p015_hello_message();
-    spacexchimp_p015_successfull_message();
+    spacexchimp_p016_hello_message();
+    spacexchimp_p016_error_message();
+    spacexchimp_p016_successfull_message();
 
     // Layout of page
     ?>
@@ -43,15 +44,17 @@ function spacexchimp_p015_render_submenu_page() {
                 <li class="active"><a href="#tab-core" data-toggle="tab"><?php _e( 'Main', $text ); ?></a></li>
                 <li><a href="#tab-usage" data-toggle="tab"><?php _e( 'Usage', $text ); ?></a></li>
                 <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', $text ); ?></a></li>
+                <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', $text ); ?></a></li>
+                <li><a href="#tab-store" data-toggle="tab"><?php _e( 'Store', $text ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
             <!-- TAB 1 -->
             <div class="tab-page fade active in" id="tab-core">
                 <!-- INCLUDE SIDEBAR -->
-                <?php require_once( SPACEXCHIMP_P015_PATH . 'inc/php/sidebar.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P016_PATH . 'inc/php/sidebar.php' ); ?>
                 <!-- INCLUDE SETTINGS -->
-                <?php require_once( SPACEXCHIMP_P015_PATH . 'inc/php/settings.php' ); ?>
+                <?php require_once( SPACEXCHIMP_P016_PATH . 'inc/php/settings.php' ); ?>
             </div>
             <!-- END-TAB 1 -->
 
@@ -60,7 +63,7 @@ function spacexchimp_p015_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add the script to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom JavaScript code to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
                             <li><?php _e( 'Place your JavaScript code in the field.', $text ); ?><br><br>
@@ -149,7 +152,7 @@ function spacexchimp_p015_render_submenu_page() {
         return;
     }
 
-    // Print the script
+    // Print the custom JavaScript code
     echo '&lt;script&gt;YOUR CUSTOM JAVASCRIPT CODE&lt;/script&gt;';
 }
 add_action( 'wp_head', 'my_custom_js_code' );</code></pre>
@@ -202,6 +205,45 @@ add_action( 'wp_head', 'my_custom_js_code' );</code></pre>
                 </div>
             </div>
             <!-- END-TAB 3 -->
+
+            <!-- TAB 4 -->
+            <div class="tab-page fade" id="tab-support">
+                <div class="postbox">
+                    <h3 class="title"><?php _e( 'Support Me', $text ); ?></h3>
+                    <div class="inside">
+                        <span class="image-with-button pull-left">
+                            <img src="<?php echo SPACEXCHIMP_P016_URL . 'inc/img/thanks.png'; ?>" alt="Thanks!">
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
+                                    <span class="btn-label">
+                                        <img src="<?php echo SPACEXCHIMP_P016_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                    </span>
+                                    <?php _e( 'Donate with PayPal', $text ); ?>
+                            </a>
+                        </span>
+                        <p><?php
+                                 printf(
+                                         __( 'Hello! My name is %s Arthur Gareginyan %s and I\'m the founder of %s Space X-Chimp %s.', $text ),
+                                         '<a href="https://www.arthurgareginyan.com" target="_blank">',
+                                         '</a>',
+                                         '<a href="https://www.spacexchimp.com" target="_blank">',
+                                         '</a>'
+                                       );
+                           ?>
+                        </p>
+                        <p><?php _e( 'My intention is to create projects that will make this world a better place. I\'m really passionate about my work, I like what I\'m doing and hope that you will be enriched by my projects too.', $text ); ?></p>
+                        <p><?php _e( 'I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                        <p><?php _e( 'If you appreciate my work, you can buy me a coffee!', $text ); ?></p>
+                        <p><?php _e( 'Thank you for your support!', $text ); ?></p>
+                    </div>
+                </div>
+            </div>
+            <!-- END-TAB 4 -->
+
+            <!-- TAB 5 -->
+            <div class="tab-page fade" id="tab-store">
+                <div class="include-tab-store"></div>
+            </div>
+            <!-- END-TAB 5 -->
 
         </div>
 

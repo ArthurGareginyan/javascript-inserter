@@ -5,7 +5,7 @@
  * Description: Easily add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.0
+ * Version: 1.1
  * License: GPL3
  * Text Domain: javascript-inserter
  * Domain Path: /languages/
@@ -50,30 +50,30 @@ $plugin_data = get_file_data( __FILE__,
                                      'text'    => 'Text Domain'
                                    )
                             );
-function spacexchimp_p015_define_constants( $constant_name, $value ) {
-    $constant_name = 'SPACEXCHIMP_P015_' . $constant_name;
+function spacexchimp_p016_define_constants( $constant_name, $value ) {
+    $constant_name = 'SPACEXCHIMP_P016_' . $constant_name;
     if ( !defined( $constant_name ) )
         define( $constant_name, $value );
 }
-spacexchimp_p015_define_constants( 'FILE', __FILE__ );
-spacexchimp_p015_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
-spacexchimp_p015_define_constants( 'BASE', plugin_basename( __FILE__ ) );
-spacexchimp_p015_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
-spacexchimp_p015_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
-spacexchimp_p015_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
-spacexchimp_p015_define_constants( 'NAME', $plugin_data['name'] );
-spacexchimp_p015_define_constants( 'VERSION', $plugin_data['version'] );
-spacexchimp_p015_define_constants( 'TEXT', $plugin_data['text'] );
-spacexchimp_p015_define_constants( 'PREFIX', 'spacexchimp_p015' );
-spacexchimp_p015_define_constants( 'SETTINGS', 'spacexchimp_p015' );
+spacexchimp_p016_define_constants( 'FILE', __FILE__ );
+spacexchimp_p016_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+spacexchimp_p016_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+spacexchimp_p016_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+spacexchimp_p016_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+spacexchimp_p016_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+spacexchimp_p016_define_constants( 'NAME', $plugin_data['name'] );
+spacexchimp_p016_define_constants( 'VERSION', $plugin_data['version'] );
+spacexchimp_p016_define_constants( 'TEXT', $plugin_data['text'] );
+spacexchimp_p016_define_constants( 'PREFIX', 'spacexchimp_p016' );
+spacexchimp_p016_define_constants( 'SETTINGS', 'spacexchimp_p016' );
 
 /**
  * Load the plugin modules
  */
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/core.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/upgrade.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/versioning.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/enqueue.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/functional.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/page.php' );
-require_once( SPACEXCHIMP_P015_PATH . 'inc/php/messages.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/core.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/upgrade.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/versioning.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/enqueue.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/functional.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/page.php' );
+require_once( SPACEXCHIMP_P016_PATH . 'inc/php/messages.php' );

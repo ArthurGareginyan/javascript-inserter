@@ -8,15 +8,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Function for managing information about the version number of the plugin
  */
-function spacexchimp_p015_versioning() {
+function spacexchimp_p016_versioning() {
 
     ///////////////////////////////////////////////////////////////////
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
     // Put value of constants to variables for easier access
-    $version_files = SPACEXCHIMP_P015_VERSION;
-    $settings = SPACEXCHIMP_P015_SETTINGS;
+    $version_files = SPACEXCHIMP_P016_VERSION;
+    $settings = SPACEXCHIMP_P016_SETTINGS;
 
     // Read the plugin service information from the database and put it into an array
     $info = get_option( $settings . '_service_info' );
@@ -101,4 +101,4 @@ function spacexchimp_p015_versioning() {
     }
 
 }
-spacexchimp_p015_versioning();
+spacexchimp_p016_versioning();

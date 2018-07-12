@@ -1,10 +1,10 @@
 === JavaScript Inserter ===
 Contributors: Arthur Gareginyan
-Tags: insert js, insert javascript, insert custom scripts, insert custom code, javascript, js
+Tags: inject, insert, insert scripts, insert javascript, insert js, insert custom scripts, insert custom code, javascript, js, code, custom code, script, scripts, custom scripts, head code, header code, footer code
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -121,7 +121,7 @@ A. For now, this plugin does not have an option to apply the custom JavaScript c
         return;
     }
 
-    // Print the script
+    // Print the custom JavaScript code
     echo '<script>YOUR CUSTOM JAVASCRIPT CODE</script>';
 }
 add_action( 'wp_head', 'my_custom_js_code' );`
@@ -149,7 +149,7 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 == Screenshots ==
 
 1. Plugin page.
-
+2. Plugin page with Google Analytics tracking code added.
 
 
 == Other Notes ==
@@ -177,6 +177,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.1 =
+* Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
+* The code number of the plugin is changed from 'p015' to 'p016'.
+* All translation files are updated.
 
 = 1.0 =
 * Initial release.
