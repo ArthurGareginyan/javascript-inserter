@@ -25,7 +25,6 @@ If you want more options then tell us and we will be happy to add it.
 
 * Inserts custom JavaScript code in beginning or/and end of HEAD tag
 * Inserts custom JavaScript code in beginning or/and end of footer
-* And much, much more!
 
 **Got more ideas? Tell me!**
 
