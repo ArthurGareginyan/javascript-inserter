@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert custo
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -176,6 +176,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.2 =
+* Dutch translation added. (Thanks to Peter Leenders)
+* The function '_load_scripts_codemirror' is improved. Removed an unnecessary call of constants.
+* The function '_load_scripts_admin' is improved.
+* The banner of Space X-Chimp, located on the settings page of the plugin, is updated. The image 'banner.png' is deleted.
+* Some texts are updated.
+* All translation files are updated.
 
 = 1.1 =
 * Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
