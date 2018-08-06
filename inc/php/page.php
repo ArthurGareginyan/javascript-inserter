@@ -66,15 +66,15 @@ function spacexchimp_p016_render_submenu_page() {
                         <p><?php _e( 'To add your custom JavaScript code to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
-                            <li><?php _e( 'Place your JavaScript code in the field.', $text ); ?><br><br>
-                                <p><?php _e( 'Note that the fields are for inserting JavaScript code, so you don\'t need to wrap your JavaScript code in the corresponding HTML tag <code>&lt;script&gt;</code>. Example:', $text ); ?></p>
+                            <li><?php _e( 'Place your custom JavaScript code in the field.', $text ); ?><br><br>
+                                <p><?php _e( 'Note that the fields are for inserting JavaScript code, so you don\'t need to wrap your custom JavaScript code in the corresponding HTML tag <code>&lt;script&gt;</code>. Example:', $text ); ?></p>
 <?php $ExampleCode = 'function myFunction() {
         document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;
 }'; ?>
 <pre><code><?php echo $ExampleCode; ?></code></pre>
                             </li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
-                            <li><?php _e( 'Enjoy the result of applying your JavaScript code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
+                            <li><?php _e( 'Enjoy the result of applying your custom JavaScript code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                             __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),

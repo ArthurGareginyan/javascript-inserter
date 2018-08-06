@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer JavaScript Inserter\n"
-"POT-Creation-Date: 2018-07-24 00:34+0300\n"
-"PO-Revision-Date: 2018-07-24 00:34+0300\n"
+"POT-Creation-Date: 2018-08-07 01:37+0300\n"
+"PO-Revision-Date: 2018-08-07 01:37+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -96,11 +96,11 @@ msgid "Go to the \"Main\" tab."
 msgstr ""
 
 #: inc/php/page.php:69
-msgid "Place your JavaScript code in the field."
+msgid "Place your custom JavaScript code in the field."
 msgstr ""
 
 #: inc/php/page.php:70
-msgid "Note that the fields are for inserting JavaScript code, so you don't need to wrap your JavaScript code in the corresponding HTML tag <code>&lt;script&gt;</code>. Example:"
+msgid "Note that the fields are for inserting JavaScript code, so you don't need to wrap your custom JavaScript code in the corresponding HTML tag <code>&lt;script&gt;</code>. Example:"
 msgstr ""
 
 #: inc/php/page.php:76
@@ -108,7 +108,7 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:77
-msgid "Enjoy the result of applying your JavaScript code."
+msgid "Enjoy the result of applying your custom JavaScript code."
 msgstr ""
 
 #: inc/php/page.php:77
@@ -296,7 +296,7 @@ msgid "Head Section"
 msgstr "Sekcja: Nagłówek"
 
 #: inc/php/settings.php:33
-msgid "You can use the fields below to add your JavaScript code to HEAD section of your website."
+msgid "You can use the fields below to add your custom JavaScript code to HEAD section of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
 
 #: inc/php/settings.php:35
@@ -321,7 +321,7 @@ msgid "Footer Section"
 msgstr "Sekcja: Stopka"
 
 #: inc/php/settings.php:56
-msgid "You can use the fields below to add your JavaScript code to FOOTER section of your website."
+msgid "You can use the fields below to add your custom JavaScript code to FOOTER section of your website."
 msgstr "Pola poniżej można użyć, aby dodać kod JavaScript do stopki witryny."
 
 #: inc/php/settings.php:58
@@ -369,7 +369,7 @@ msgid "https://github.com/ArthurGareginyan/javascript-inserter"
 msgstr "https://github.com/ArthurGareginyan/javascript-inserter"
 
 #. Description of the plugin/theme
-msgid "Easily add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
+msgid "Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
 msgstr ""
 
 #. Author of the plugin/theme

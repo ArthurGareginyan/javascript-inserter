@@ -4,20 +4,22 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert custo
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily insert your custom JavaScript code in the head or/and footer section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom JavaScript code in the head or/and footer section of your website.
 
-No need anymore to editing a files of your theme or plugins in order to add your custom JavaScript code. You can add they on the plugin settings page. Just add your custom JavaScript code in the field on the plugin settings page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your custom JavaScript code would never be lost! Your custom JavaScript code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom JavaScript code. Just add your custom JavaScript code in the field on the plugin page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website.
 
-If you want more options then tell us and we will be happy to add it.
+The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom JavaScript code would never be overwritten. Your custom JavaScript code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
 **Features**
 
@@ -43,6 +45,7 @@ This plugin is ready for translation and has already been translated into severa
 * German (translation by Michael)
 * Polish
 * Spanish (translation by Patricio Toledo)
+* Dutch (translation by Peter Leenders)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/javascript-inserter).
 
@@ -176,6 +179,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.3 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
 
 = 1.2 =
 * Dutch translation added. (Thanks to Peter Leenders)

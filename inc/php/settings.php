@@ -30,7 +30,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="head">
                         <h3 class="title"><?php _e( 'Head Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your JavaScript code to HEAD section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to HEAD section of your website.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed in the beginning of HEAD section.', $text ); ?></p>
                             <textarea
@@ -53,7 +53,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="footer">
                         <h3 class="title"><?php _e( 'Footer Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your JavaScript code to FOOTER section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to FOOTER section of your website.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed before the footer scripts.', $text ); ?></p>
                             <textarea
