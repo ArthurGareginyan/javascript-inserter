@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.3
+ * Version: 1.4
  * License: GPL3
  * Text Domain: javascript-inserter
  * Domain Path: /languages/

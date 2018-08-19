@@ -6,25 +6,9 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Inject the custom JavaScript code in the frontend head and footer
+ * Prepare the custom code
  */
-add_action( 'wp_head', 'spacexchimp_p016_inject_head_beginning', 0 );
-add_action( 'wp_head', 'spacexchimp_p016_inject_head_end', 1000 );
-add_action( 'wp_footer', 'spacexchimp_p016_inject_footer_beginning', 0 );
-add_action( 'wp_footer', 'spacexchimp_p016_inject_footer_end', 1000 );
-
-/**
- * Prepare the custom JavaScript code for outputing
- */
-function spacexchimp_p016_inject_head_beginning() { spacexchimp_p016_output('header_beginning'); }
-function spacexchimp_p016_inject_head_end() { spacexchimp_p016_output('header_end'); }
-function spacexchimp_p016_inject_footer_beginning() { spacexchimp_p016_output('footer_beginning'); }
-function spacexchimp_p016_inject_footer_end() { spacexchimp_p016_output('footer_end'); }
-
-/**
- * Outputs the given setting, if conditions are met
- */
-function spacexchimp_p016_output( $option ) {
+function spacexchimp_p016_prepare( $option ) {
 
     // Ignore admin, feed, robots or trackbacks
     if (is_admin() || is_feed() || is_robots() || is_trackback()) {
@@ -33,18 +17,39 @@ function spacexchimp_p016_output( $option ) {
 
     // Read options from database and declare variables
     $options = get_option( SPACEXCHIMP_P016_SETTINGS . '_settings' );
-    $data = $options[$option];
+    $data = !empty( $options[$option] ) ? $options[$option] : '';
 
-    // If data is empty then exit
-    if( empty( $data ) ) {
-        return;
+    // Prepare a variable for storing the processed data
+    $data_out = "";
+
+    // If data is not empty...
+    if ( !empty( $data ) ) {
+
+        // Add an additional code to the beginning of the variable
+        $data_out = '<script>' . "\n";
+
+        $data_out .= $data;
+
+        // Add an additional code to the end of the variable
+        $data_out .= "\n" . '</script>' . "\n";
     }
 
-    // Add comments to output
-    $data_out = "\n<!-- [BEGIN] Custom JavaScript code added via JavaScript-Inserter plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->\n";
-    $data_out .= "<script>" . $data . "</script>";
-    $data_out .= "\n<!-- [END] Custom JavaScript code added via JavaScript-Inserter plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->\n\n";
-
-    // Output
+    // Return the processed data
     echo $data_out;
 }
+
+/**
+ * Process the custom code
+ */
+function spacexchimp_p016_exec_head_0() { spacexchimp_p016_prepare('header_beginning'); }
+function spacexchimp_p016_exec_head_1() { spacexchimp_p016_prepare('header_end'); }
+function spacexchimp_p016_exec_footer_0() { spacexchimp_p016_prepare('footer_beginning'); }
+function spacexchimp_p016_exec_footer_1() { spacexchimp_p016_prepare('footer_end'); }
+
+/**
+ * Inject the custom code into the website's frontend
+ */
+add_action( 'wp_head', 'spacexchimp_p016_exec_head_0', 0 );
+add_action( 'wp_head', 'spacexchimp_p016_exec_head_1', 1000 );
+add_action( 'wp_footer', 'spacexchimp_p016_exec_footer_0', 0 );
+add_action( 'wp_footer', 'spacexchimp_p016_exec_footer_1', 1000 );

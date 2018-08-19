@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert custo
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -104,7 +104,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 A. Simply go to the plugin settings page, place your custom JavaScript code in the field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`JS Inserter`".
 
-= Q. How much of JavaScript code I can enter in the field? =
+= Q. How much of JavaScript code (characters) I can enter in the text field? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
@@ -179,6 +179,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.4 =
+* Changed the sorting of functions in the file 'functional.php'.
+* The '_output' function renamed to '_prepare'.
+* The function '_prepare' is improved.
+* Functions '_inject_head_beginning', '_inject_head_end', '_inject_footer_beginning' and '_inject_footer_end' are renamed to '_exec_head_0', '_exec_head_1', '_exec_footer_0' and '_exec_footer_1' respectively.
+* The comment (name of the plugin and link) added to the custom code is deleted.
+* Code commenting improved.
+* Some texts are updated.
+* Translation files are updated.
 
 = 1.3 =
 * Some texts are updated.

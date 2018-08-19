@@ -132,9 +132,9 @@ function spacexchimp_p016_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Settings" tab, place your custom JavaScript code in the field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom JavaScript code in the field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'How much of JavaScript code I can enter in the field?', $text ); ?></div>
+                        <div class="question-4"><?php _e( 'How much of JavaScript code (characters) I can enter in the text field?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
                         <div class="question-5"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>

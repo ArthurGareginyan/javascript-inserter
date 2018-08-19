@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer JavaScript Inserter\n"
-"POT-Creation-Date: 2018-08-07 01:37+0300\n"
-"PO-Revision-Date: 2018-08-07 01:37+0300\n"
+"POT-Creation-Date: 2018-08-18 18:14+0300\n"
+"PO-Revision-Date: 2018-08-18 18:14+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -31,7 +31,7 @@ msgstr "Wesprzyj"
 
 #: inc/php/core.php:52
 msgid "JS Inserter"
-msgstr ""
+msgstr "JS Inserter"
 
 #: inc/php/messages.php:26
 msgid "Hello. We are the team of Space X-Chimp."
@@ -51,7 +51,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
 #: inc/php/messages.php:91
-msgid "JavaScript code updated successfully."
+msgid "Custom code updated successfully."
 msgstr ""
 
 #: inc/php/page.php:31
@@ -166,11 +166,11 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:135
-msgid "On the \"Settings\" tab, place your custom JavaScript code in the field and click the \"Save changes\" button. Enjoy the result of applying your custom JavaScript code. It's that simple!"
+msgid "On the \"Main\" tab, place your custom JavaScript code in the field and click the \"Save changes\" button. Enjoy the result of applying your custom JavaScript code. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:137
-msgid "How much of JavaScript code I can enter in the field?"
+msgid "How much of JavaScript code (characters) I can enter in the text field?"
 msgstr ""
 
 #: inc/php/page.php:138
@@ -349,7 +349,7 @@ msgid "About"
 msgstr "O wtyczce"
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily insert you custom JavaScript code in your website."
+msgid "This plugin allows you to easily and safely insert your custom JavaScript code in your website directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr "Ta wtyczka pozwala łatwo wstawić kod JavaScript na stronę www."
 
 #: inc/php/sidebar.php:32
