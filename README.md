@@ -17,19 +17,29 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 
 * Lightweight and fast
 * Secure code with using clear coding standards
-* Intuitive interface with many settings
+* Intuitive interface
 * Cross browser compatible (work smooth in any modern browser)
 * Compatible with all WordPress themes
 * RTL compatible (right to left)
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
+**Got more ideas? Tell me!**
+
 ### Key features include...
 
-* Inserts custom JavaScript code in beginning or/and end of HEAD tag
-* Inserts custom JavaScript code in beginning or/and end of footer
+* Insert custom JavaScript code into the site
+* Manage which JavaScript code load on HEAD or FOOTER
+* Controlling the priority of loading JavaScript code
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
 
-**Got more ideas? Tell me!**
+### Supported languages
+
+* JavaScript
 
 ### Translation
 
