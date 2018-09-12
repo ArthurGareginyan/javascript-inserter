@@ -30,16 +30,16 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="head">
                         <h3 class="title"><?php _e( 'Head Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to HEAD section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to the HEAD section of your website.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed in the beginning of HEAD section.', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed at the beginning of the HEAD section.', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p016_settings[header_beginning]"
                                 id="spacexchimp_p016_settings[header_beginning]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $header_beginning; ?></textarea>
 
-                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed in the end of HEAD section.', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed at the end of the HEAD section.', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p016_settings[header_end]"
                                 id="spacexchimp_p016_settings[header_end]"
@@ -53,16 +53,16 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="footer">
                         <h3 class="title"><?php _e( 'Footer Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to FOOTER section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom JavaScript code to the FOOTER section of your website.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed before the footer scripts.', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed at the beginning of the FOOTER section.', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p016_settings[footer_beginning]"
                                 id="spacexchimp_p016_settings[footer_beginning]"
                                 placeholder="<?php _e( 'Enter your custom JavaScript code here', $text ); ?>"
                             ><?php echo $footer_beginning; ?></textarea>
 
-                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed after all footers scripts.', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'The JavaScript code from this field will be printed at the end of the FOOTER section.', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p016_settings[footer_end]"
                                 id="spacexchimp_p016_settings[footer_end]"

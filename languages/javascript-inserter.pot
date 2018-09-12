@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer JavaScript Inserter\n"
-"POT-Creation-Date: 2018-08-18 18:15+0300\n"
+"POT-Creation-Date: 2018-09-12 18:19+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -167,7 +167,7 @@ msgid "On the \"Main\" tab, place your custom JavaScript code in the field and c
 msgstr ""
 
 #: inc/php/page.php:137
-msgid "How much of JavaScript code (characters) I can enter in the text field?"
+msgid "How much of JavaScript code (characters) I can enter in the code editor?"
 msgstr ""
 
 #: inc/php/page.php:138
@@ -293,11 +293,11 @@ msgid "Head Section"
 msgstr ""
 
 #: inc/php/settings.php:33
-msgid "You can use the fields below to add your custom JavaScript code to HEAD section of your website."
+msgid "You can use the fields below to add your custom JavaScript code to the HEAD section of your website."
 msgstr ""
 
 #: inc/php/settings.php:35
-msgid "The JavaScript code from this field will be printed in the beginning of HEAD section."
+msgid "The JavaScript code from this field will be printed at the beginning of the HEAD section."
 msgstr ""
 
 #: inc/php/settings.php:39 inc/php/settings.php:46 inc/php/settings.php:62
@@ -306,7 +306,7 @@ msgid "Enter your custom JavaScript code here"
 msgstr ""
 
 #: inc/php/settings.php:42
-msgid "The JavaScript code from this field will be printed in the end of HEAD section."
+msgid "The JavaScript code from this field will be printed at the end of the HEAD section."
 msgstr ""
 
 #: inc/php/settings.php:49 inc/php/settings.php:72
@@ -318,15 +318,15 @@ msgid "Footer Section"
 msgstr ""
 
 #: inc/php/settings.php:56
-msgid "You can use the fields below to add your custom JavaScript code to FOOTER section of your website."
+msgid "You can use the fields below to add your custom JavaScript code to the FOOTER section of your website."
 msgstr ""
 
 #: inc/php/settings.php:58
-msgid "The JavaScript code from this field will be printed before the footer scripts."
+msgid "The JavaScript code from this field will be printed at the beginning of the FOOTER section."
 msgstr ""
 
 #: inc/php/settings.php:65
-msgid "The JavaScript code from this field will be printed after all footers scripts."
+msgid "The JavaScript code from this field will be printed at the end of the FOOTER section."
 msgstr ""
 
 #: inc/php/settings.php:79 inc/php/sidebar.php:41
@@ -346,7 +346,7 @@ msgid "About"
 msgstr ""
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily and safely insert your custom JavaScript code in your website directly out of your WordPress Admin Area, without the need to have an external editor."
+msgid "This plugin allows you to easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #: inc/php/sidebar.php:32
@@ -366,7 +366,7 @@ msgid "https://github.com/ArthurGareginyan/javascript-inserter"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
+msgid "Easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
 #. Author of the plugin/theme

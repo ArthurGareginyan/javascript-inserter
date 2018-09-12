@@ -2,10 +2,10 @@
 /**
  * Plugin Name: JavaScript Inserter
  * Plugin URI: https://github.com/ArthurGareginyan/javascript-inserter
- * Description: Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+ * Description: Easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.4
+ * Version: 1.5
  * License: GPL3
  * Text Domain: javascript-inserter
  * Domain Path: /languages/

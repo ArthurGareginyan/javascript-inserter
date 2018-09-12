@@ -1,21 +1,21 @@
 === JavaScript Inserter ===
 Contributors: Arthur Gareginyan
-Tags: inject, insert, insert scripts, insert javascript, insert js, insert custom scripts, insert custom code, javascript, js, code, custom code, script, scripts, custom scripts, head code, header code, footer code
+Tags: inject code, inject scripts, inject javascript, inject js, insert code, insert scripts, insert javascript, insert js, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, javascript, js, code, custom code, script, scripts, custom scripts, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom JavaScript code to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+Easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom JavaScript code in the head or/and footer section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
-This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom JavaScript code. Just add your custom JavaScript code in the field on the plugin page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom JavaScript code. Just add your custom JavaScript code in the field on the plugin page and this plugin will do the rest for you. It will automatically add your JavaScript code to the desired section of your website, without changing any of your theme files and without slowing down your website.
 
 The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom JavaScript code would never be overwritten. Your custom JavaScript code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
@@ -25,7 +25,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 
 * Lightweight and fast
 * Secure code with using clear coding standards
-* Intuitive interface with many settings
+* Intuitive interface
 * Cross browser compatible (work smooth in any modern browser)
 * Compatible with all WordPress themes
 * RTL compatible (right to left)
@@ -33,8 +33,18 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 
 **Key features include...**
 
-* Inserts custom JavaScript code in beginning or/and end of HEAD tag
-* Inserts custom JavaScript code in beginning or/and end of footer
+* Insert custom JavaScript code into the site
+* Manage which JavaScript code load on HEAD or FOOTER
+* Controlling the priority of loading JavaScript code
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
+
+**Supported languages**
+
+* JavaScript
 
 **Translation**
 
@@ -104,7 +114,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 A. Simply go to the plugin settings page, place your custom JavaScript code in the field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`JS Inserter`".
 
-= Q. How much of JavaScript code (characters) I can enter in the text field? =
+= Q. How much of JavaScript code (characters) I can enter in the code editor? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
@@ -176,9 +186,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/javascript-inserter)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/javascript-inserter/)
 
 
 == Changelog ==
+
+= 1.5 =
+* The design of the message "Successful" is improved.
+* The "readme.txt" file is updated.
+* Some texts are updated.
+* Translation files are updated.
 
 = 1.4 =
 * Changed the sorting of functions in the file 'functional.php'.
