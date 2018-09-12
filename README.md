@@ -70,7 +70,6 @@ Developing plugins is long and tedious work. If you benefit or enjoy this plugin
 * [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/javascript-inserter) if you have any ideas or suggestions to make this plugin better.
 
 
-
 ## Contributing
 
 Welcome and thanks! I appreciate you taking the initiative to contribute to this project.
