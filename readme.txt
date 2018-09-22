@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, insert code, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,6 +41,18 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Active line highlighting
 * Editor allow for Tab indentation
 * And much, much more!
+
+**PRO features include...**
+
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/javascript-inserter-pro.html)
 
 **Supported languages**
 
@@ -111,7 +123,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your custom JavaScript code in the field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It's that simple!
+A. Simply go to the plugin settings page, place your custom JavaScript code in the code editor field and click the "Save changes" button. Enjoy the result of applying your custom JavaScript code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`JS Inserter`".
 
 = Q. How much of JavaScript code (characters) I can enter in the code editor? =
@@ -134,7 +146,8 @@ A. For now, this plugin does not have an option to apply the custom JavaScript c
     }
 
     // Print the custom JavaScript code
-    echo '<script>YOUR CUSTOM JAVASCRIPT CODE</script>';
+    echo '<script>YOUR CUSTOM JAVASCRIPT CODE HERE</script>';
+
 }
 add_action( 'wp_head', 'my_custom_js_code' );`
 
@@ -187,9 +200,18 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/javascript-inserter)
 * [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/javascript-inserter/)
+* [Premium Version](https://www.spacexchimp.com/plugins/javascript-inserter-pro.html)
 
 
 == Changelog ==
+
+= 1.6 =
+* Added information about the PRO version of the plugin.
+* Content of the "FAQ" section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* The sidebar items are rearranged.
+* Some texts are updated.
+* Translation files are updated.
 
 = 1.5 =
 * The design of the message "Successful" is improved.
