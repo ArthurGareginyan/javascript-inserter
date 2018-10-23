@@ -67,29 +67,13 @@ function spacexchimp_p016_render_submenu_page() {
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab on this page.', $text ); ?></li>
                             <li><?php _e( 'Place your custom JavaScript code in the code editor field.', $text ); ?><br><br>
-                                <?php _e( 'An example of JavaScript code:', $text ); ?><br><br>
-<pre><code>// Wait for DOM to load
-document.addEventListener(&#x22;DOMContentLoaded&#x22;, function(event) {
-
-    // Put the button into a variable
-    var e = document.getElementById(&#x22;go&#x22;);
-
-    // Wait for user to click the button
-    e.addEventListener(&#x22;click&#x22;, function() {
-
-        // Show the Hello message
-        document.getElementById(&#x22;demo&#x22;).innerHTML = &#x22;Hello World!&#x22;;
-
-    }, false);
-
-});</code></pre>
                                 <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'Do not wrap your custom JavaScript code in HTML tags, such as<code>&lt;script&gt;</code>...<code>&lt;/script&gt;</code>.', $text ); ?></p>
                             </li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the result of applying your custom JavaScript code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
+                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
                                                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                                                 '</a>'
                                                                                            );
