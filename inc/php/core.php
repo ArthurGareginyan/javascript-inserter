@@ -27,7 +27,7 @@ function spacexchimp_p016_settings_link( $links ) {
 add_filter( 'plugin_action_links_' . SPACEXCHIMP_P016_BASE, 'spacexchimp_p016_settings_link' );
 
 /**
- * Print link to Head and Footer Scripts Inserter PRO page
+ * Print link to JavaScript Inserter PRO page
  */
 function spacexchimp_p016_upgrade_link( $links ) {
     $upgrade_page = '<a href="https://www.spacexchimp.com/plugins/javascript-inserter-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', SPACEXCHIMP_P016_TEXT ) . '</b></a>';
