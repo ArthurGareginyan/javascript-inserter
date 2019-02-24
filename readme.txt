@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, insert code, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 1.11
+Stable tag: 1.12
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,6 +70,7 @@ This plugin is ready for translation and has already been translated into severa
 * Polish
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
+* French (translation by Jean-Michel, Theophil Bethel and Hervé Bouzin)
 
 If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/javascript-inserter).
 
@@ -216,6 +217,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 1.12 - 2019-02-24 =
+* Added French translation. (Thanks to Hervé Bouzin)
+
 = 1.11 =
 * The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
 * Content of the "F.A.Q." section updated.
@@ -223,7 +227,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * All translation files are updated.
 * Code formatting improved.
 * Added CSS class ".custom-list" for displaying a custom list, which is used on the plugin settings page.
-* The human.txt file updated.
+* The "humans.txt" file updated.
 * The copyright date corrected.
 
 = 1.10 =
