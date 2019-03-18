@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, insert code, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 1.13
+Stable tag: 1.14
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -76,12 +76,12 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
-* [PHP](https://php.net) version **5.2** or higher.
+* [PHP](https://secure.php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
-* [PHP](https://php.net) version **7.0** or higher.
+* [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
 **Contribution**
@@ -89,7 +89,7 @@ If you want to help translate this plugin, please visit the [translation page](h
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
 * [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
-* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/javascript-inserter?rate=5#postform) this plugin.
+* [Rate and Review](https://wordpress.org/support/plugin/javascript-inserter/reviews/#new-post) this plugin.
 * [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/javascript-inserter) if you have any ideas or suggestions to make this plugin better.
 
 
@@ -216,6 +216,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.14 - 2019-03-18 =
+* Improvement: Notification display system updated
+* Code commenting improved.
+* Style sheet for the back end is optimised.
 
 = 1.13 - 2019-03-01 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
