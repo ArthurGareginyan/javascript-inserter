@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JavaScript Inserter\n"
-"POT-Creation-Date: 2019-03-23 04:28+0300\n"
-"PO-Revision-Date: 2019-03-23 04:28+0300\n"
+"POT-Creation-Date: 2019-03-31 16:12+0300\n"
+"PO-Revision-Date: 2019-03-31 16:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -83,7 +83,7 @@ msgstr "Wykorzystanie"
 msgid "F.A.Q."
 msgstr "FAQ"
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:87
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:94
 msgid "Support"
 msgstr ""
 
@@ -91,36 +91,36 @@ msgstr ""
 msgid "Store"
 msgstr "Rodzina"
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:33
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "O wtyczce"
 
-#: inc/php/sidebar.php:35
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Pomoc"
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:89
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:96
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:94
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:101
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:96
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:103
 msgid "Thanks for your support!"
 msgstr "Dziękujemy za wsparcie!"
 
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Head Section"
 msgstr "Sekcja: Nagłówek"
 
-#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:62
+#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:65
 msgid "NOT SAVED!"
 msgstr ""
 
@@ -549,7 +549,7 @@ msgid "The JavaScript code from this field will be printed at the beginning of t
 msgstr "Kod JavaScript z tego pola zostaną dodane na początku sekcji HEAD."
 
 #: inc/php/tabs/settings.php:44 inc/php/tabs/settings.php:51
-#: inc/php/tabs/settings.php:72 inc/php/tabs/settings.php:79
+#: inc/php/tabs/settings.php:75 inc/php/tabs/settings.php:82
 msgid "Enter your custom JavaScript code here"
 msgstr ""
 
@@ -557,23 +557,23 @@ msgstr ""
 msgid "The JavaScript code from this field will be printed at the end of the HEAD section."
 msgstr "Kod JavaScript z tego pola zostaną dodane na końcu sekcji HEAD."
 
-#: inc/php/tabs/settings.php:54 inc/php/tabs/settings.php:82
+#: inc/php/tabs/settings.php:55 inc/php/tabs/settings.php:86
 msgid "Save changes"
 msgstr "Zapisz"
 
-#: inc/php/tabs/settings.php:60
+#: inc/php/tabs/settings.php:63
 msgid "Footer Section"
 msgstr "Sekcja: Stopka"
 
-#: inc/php/tabs/settings.php:66
+#: inc/php/tabs/settings.php:69
 msgid "You can use the fields below to add your custom JavaScript code to the FOOTER section of your website's front end."
 msgstr "Pola poniżej można użyć, aby dodać kod JavaScript do stopki witryny."
 
-#: inc/php/tabs/settings.php:68
+#: inc/php/tabs/settings.php:71
 msgid "The JavaScript code from this field will be printed at the beginning of the FOOTER section."
 msgstr "Kod JavaScript z tego pola zostaną dodane przed skryptami ze stopki."
 
-#: inc/php/tabs/settings.php:75
+#: inc/php/tabs/settings.php:78
 msgid "The JavaScript code from this field will be printed at the end of the FOOTER section."
 msgstr "Kod JavaScript z tego pola zostaną dodane za skryptami ze stopki."
 

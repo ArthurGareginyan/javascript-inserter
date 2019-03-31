@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, insert code, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 1.15
+Stable tag: 1.16
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -217,7 +217,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-= 1.15 - 2019-03-24 =
+= 1.16 - Mar 31, 2019 =
+* Framework updated: Code formatting improved.
+* Framework updated: Code commenting improved.
+* Framework updated: The change log design is improved.
+
+= 1.15 - Mar 24, 2019 =
 * Framework updated: Added function "_plugin", which returns an array with the contents of plugin constants. The mention of plugin constants is replaced by the use of the function "_plugin".
 * Framework updated: The functions "_settings_link" and "_upgrade_link" are combined and improved.
 * Framework updated: The function "_plugin_row_meta" is improved.
@@ -225,19 +230,19 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Framework updated: Code commenting improved.
 * Framework updated: All translation files are updated.
 
-= 1.14 - 2019-03-18 =
+= 1.14 - Mar 18, 2019 =
 * Improvement: Notification display system updated
 * Code commenting improved.
 * Style sheet for the back end is optimised.
 
-= 1.13 - 2019-03-01 =
+= 1.13 - Mar 1, 2019 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
 * Framework updated: The files "settings.php", "usage.php", "faq.php", "support.php" are moved to the subfolder "tabs".
 
-= 1.12 - 2019-02-24 =
+= 1.12 - Feb 24, 2019 =
 * Added French translation. (Thanks to Hervé Bouzin)
 
-= 1.11 =
+= 1.11 - Feb 21, 2019 =
 * The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
 * Content of the "F.A.Q." section updated.
 * Some texts are corrected or replaced with new ones.
@@ -247,7 +252,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The "humans.txt" file updated.
 * The copyright date corrected.
 
-= 1.10 =
+= 1.10 - Jan 11, 2019 =
 * Content of the "Usage" section updated.
 * Content of the "FAQ" section updated.
 * Code formatting in the "admin.js" file improved.
@@ -255,19 +260,19 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The copyright date updated.
 * Translation files are updated.
 
-= 1.9 =
+= 1.9 - Nov 2, 2018 =
 * Improvement: Design of the plugin settings page is improved.
 
-= 1.8 =
+= 1.8 - Oct 23, 2018 =
 * Improvement: Design of the plugin settings page is improved.
 * Content of the "Usage Instructions" section updated.
 * Translation files are updated.
 
-= 1.7 =
+= 1.7 - Oct 8, 2018 =
 * Added new feature: If the changes in the code editor were made, but not saved, the message "NOT SAVED" is displayed.
 * Translation files are updated.
 
-= 1.6 =
+= 1.6 - Sep 22, 2018 =
 * Added information about the PRO version of the plugin.
 * Content of the "FAQ" section updated.
 * CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
@@ -275,13 +280,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts are updated.
 * Translation files are updated.
 
-= 1.5 =
+= 1.5 - Sep 12, 2018 =
 * The design of the message "Successful" is improved.
 * The "readme.txt" file is updated.
 * Some texts are updated.
 * Translation files are updated.
 
-= 1.4 =
+= 1.4 - Aug 19, 2018 =
 * Changed the sorting of functions in the file 'functional.php'.
 * The '_output' function renamed to '_prepare'.
 * The function '_prepare' is improved.
@@ -291,12 +296,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts are updated.
 * Translation files are updated.
 
-= 1.3 =
+= 1.3 - Aug 7, 2018 =
 * Some texts are updated.
 * Translation files are updated.
 * The translation into Russian has been corrected.
 
-= 1.2 =
+= 1.2 - Jul 24, 2018 =
 * Dutch translation added. (Thanks to Peter Leenders)
 * The function '_load_scripts_codemirror' is improved. Removed an unnecessary call of constants.
 * The function '_load_scripts_admin' is improved.
@@ -304,7 +309,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts are updated.
 * All translation files are updated.
 
-= 1.1 =
+= 1.1 - Jul 12, 2018 =
 * Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
 * The code number of the plugin is changed from 'p015' to 'p016'.
 * All translation files are updated.
