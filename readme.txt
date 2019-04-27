@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject scripts, inject javascript, inject js, insert code, insert scripts, insert javascript, insert js, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, javascript, js, code, custom code, script, scripts, custom scripts, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 1.16
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
