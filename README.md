@@ -23,7 +23,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Key features include...**
+**Key features include**
 
 * Insert custom JavaScript code into the site
 * Manage which JavaScript code load on HEAD or FOOTER
