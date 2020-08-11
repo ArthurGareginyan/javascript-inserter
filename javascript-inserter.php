@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.20
+ * Version: 1.21
  * License: GPL3
  * Text Domain: javascript-inserter
  * Domain Path: /languages/
