@@ -10,7 +10,7 @@
  * Text Domain: javascript-inserter
  * Domain Path: /languages/
  *
- * Copyright 2018-2020 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2018-2021 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
