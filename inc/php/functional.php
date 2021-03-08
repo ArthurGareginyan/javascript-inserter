@@ -22,19 +22,16 @@ function spacexchimp_p016_prepare( $option ) {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p016_options();
 
-    // Declare variables
-    $data = !empty( $options[$option] ) ? $options[$option] : '';
-
     // Prepare a variable for storing the processed data
     $data_out = "";
 
     // If data is not empty...
-    if ( ! empty( $data ) ) {
+    if ( ! empty( $options[$option] ) ) {
 
         // Add an additional code to the beginning of the variable
         $data_out = '<script>' . "\n";
 
-        $data_out .= $data;
+        $data_out .= $options[$option];
 
         // Add an additional code to the end of the variable
         $data_out .= "\n" . '</script>' . "\n";
