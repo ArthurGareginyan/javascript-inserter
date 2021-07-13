@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject scripts, inject javascript, inject js, insert code, insert scripts, insert javascript, insert js, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, javascript, js, code, custom code, script, scripts, custom scripts, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
 Stable tag: 1.27
 License: GPL3
@@ -221,6 +221,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+=
+* Maintenance: Ensure compatibility with upcoming WordPress 5.8.
 
 = 1.27 - Mar 8, 2021 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.7.
